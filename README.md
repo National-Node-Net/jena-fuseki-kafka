@@ -10,7 +10,7 @@ This repository contributes to the development of **secure, scalable, and intero
 
 This repository is one of several open-source components that underpin NDTP’s **Integration Architecture (IA)**—a framework designed to allow organisations to manage and exchange data securely while maintaining control over their own information. The IA is actively deployed and tested across multiple sectors, ensuring its adaptability and alignment with real-world needs. 
 
-For a complete overview of the Integration Architecture (IA) project, please see the [Integration Architecture Documentation](https://github.com/National-Digital-Twin/integration-architecture-documentation).
+For a complete overview of the Integration Architecture (IA) project, please see the [Integration Architecture Documentation](https://github.com/National-Node-Net/integration-architecture-documentation).
 
 ## Prerequisites  
 Before using this repository, ensure you have the following dependencies installed:  
@@ -30,7 +30,7 @@ Follow these steps to get started quickly with this repository. For detailed ins
 
 ### 1. Download and Build  
 ```sh  
-git clone https://github.com/National-Digital-Twin/jena-fuseki-kafka.git
+git clone https://github.com/National-Node-Net/jena-fuseki-kafka.git
 cd jena-fuseki-kafka
 ```
 ### 2. Run Build Version  
@@ -61,7 +61,7 @@ wget https://repo1.maven.org/maven2/org/apache/jena/jena-fuseki-server/4.7.0/jen
 ```
 and place in the current directory.
 
-Get a copy of the script [fuseki-main](https://github.com/National-Digital-Twin/jena-fuseki-kafka/blob/main/fuseki-main)
+Get a copy of the script [fuseki-main](https://github.com/National-Node-Net/jena-fuseki-kafka/blob/main/fuseki-main)
 then run 
 
 ```sh

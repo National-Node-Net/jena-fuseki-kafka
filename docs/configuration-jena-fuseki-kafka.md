@@ -188,7 +188,7 @@ extensive documentation on how to enable and use Kafka security with their offer
 to supplying the appropriate Kafka configuration properties using the mechanisms we have already outlined.
 
 You might also find our own [Kafka Connectivity
-Options](https://github.com/National-Digital-Twin/secure-agents-lib/blob/main/docs/cli/index.md#kafka-connectivity-options)
+Options](https://github.com/National-Node-Net/secure-agents-lib/blob/main/docs/cli/index.md#kafka-connectivity-options)
 documentation useful.  Note that while the options and environment variables discussed there **DO NOT** apply to this
 repository since that is for CLIs and this is a library, the examples of Kafka properties for different Kafka
 Authentication modes are applicable.
@@ -202,7 +202,7 @@ Authentication modes are applicable.
 `fk dump` dumps the Kafka topic.
 
 ## Contributors
-The development of these works has been made possible with thanks to our [contributors](https://github.com/National-Digital-Twin/jena-fuseki-kafka/graphs/contributors).
+The development of these works has been made possible with thanks to our [contributors](https://github.com/National-Node-Net/jena-fuseki-kafka/graphs/contributors).
 
 © Crown Copyright 2025. This work has been developed by the National Digital Twin Programme and is legally attributed to the Department for Business and Trade (UK) as the
 governing entity.  
