@@ -10,7 +10,7 @@ This repository contributes to the development of **secure, scalable, and intero
 
 This repository is one of several open-source components that underpin NDTP’s **Integration Architecture (IA)**—a framework designed to allow organisations to manage and exchange data securely while maintaining control over their own information. The IA is actively deployed and tested across multiple sectors, ensuring its adaptability and alignment with real-world needs. 
 
-For a complete overview of the Integration Architecture (IA) project, please see the [Integration Architecture Documentation](https://github.com/National-Digital-Twin/integration-architecture-documentation).
+For a complete overview of the Integration Architecture (IA) project, please see the [Integration Architecture Documentation](https://github.com/National-Node-Net/integration-architecture-documentation).
 
 ## Prerequisites  
 Before using this repository, ensure you have the following dependencies installed:  
@@ -30,10 +30,11 @@ Follow these steps to get started quickly with this repository. For detailed ins
 
 ### 1. Download and Build  
 ```sh  
-git clone https://github.com/National-Digital-Twin/jena-fuseki-kafka.git
+git clone https://github.com/National-Node-Net/jena-fuseki-kafka.git
 cd jena-fuseki-kafka
 ```
 ### 2. Run Build Version  
+This requires Java 17. Tests will currently fail if run on later Java versions. This also applies to `mvn test`
 ```sh  
 mvn clean package
 
@@ -60,7 +61,7 @@ wget https://repo1.maven.org/maven2/org/apache/jena/jena-fuseki-server/4.7.0/jen
 ```
 and place in the current directory.
 
-Get a copy of the script [fuseki-main](https://github.com/National-Digital-Twin/jena-fuseki-kafka/blob/main/fuseki-main)
+Get a copy of the script [fuseki-main](https://github.com/National-Node-Net/jena-fuseki-kafka/blob/main/fuseki-main)
 then run 
 
 ```sh
@@ -84,6 +85,18 @@ To use the library directly in your project:
 ```
 
 _populate the `artifactId` above as appropriate._
+
+### 4. Testing
+You can run the test suite with
+```sh
+mvn test
+```
+Requires Java 17. There have been reports of failures when running on newer Java versions
+
+## Testing Guide
+
+### Running Unit Tests
+Navigate to the root of the project and run `mvn test` to run the tests for the repository.
 
 ## Features  
 - **Key functionality**  
