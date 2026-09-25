@@ -28,5 +28,4 @@ updates:
     schedule: 
       interval: weekly
       day: tuesday
-    target-branch: develop
     open-pull-requests-limit: 5
