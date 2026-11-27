@@ -22,6 +22,10 @@ updates:
       interval: "weekly"
       day: wednesday
     target-branch: develop
+    groups:
+      maven-dependencies:
+        patterns:
+          - "*"
     open-pull-requests-limit: 10
   # target-branch intentionally omitted: action updates target main (auto-merged) and are back-merged to develop.
   - package-ecosystem: "github-actions"
@@ -29,4 +33,8 @@ updates:
     schedule: 
       interval: weekly
       day: tuesday
+    groups:
+      github-actions:
+        patterns:
+          - "*"
     open-pull-requests-limit: 5
