@@ -1,4 +1,4 @@
-![OSPO compliance](https://raw.githubusercontent.com/National-Node-Net/ndt-overwatch/sync/governance-badges/repositories/jena-fuseki-kafka/ospo-compliance.svg) ![Develop activity](https://raw.githubusercontent.com/National-Node-Net/ndt-overwatch/sync/governance-badges/repositories/jena-fuseki-kafka/develop-activity.svg) ![Last checked](https://raw.githubusercontent.com/National-Node-Net/ndt-overwatch/sync/governance-badges/repositories/jena-fuseki-kafka/last-checked.svg)
+![OSPO compliance](https://raw.githubusercontent.com/National-Node-Net/ndt-overwatch/sync/governance-badges/repositories/jena-fuseki-kafka/ospo-compliance.svg) ![Days since last commit to develop branch](https://raw.githubusercontent.com/National-Node-Net/ndt-overwatch/sync/governance-badges/repositories/jena-fuseki-kafka/develop-activity.svg) ![Last checked](https://raw.githubusercontent.com/National-Node-Net/ndt-overwatch/sync/governance-badges/repositories/jena-fuseki-kafka/last-checked.svg)
 
 # README  
 
